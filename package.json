@@ -1,0 +1,24 @@
+{
+  "name": "netwatch",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SOC-style network monitoring and alerting system built on Supabase.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "seed": "tsx scripts/seed.ts",
+    "simulate": "tsx scripts/simulate.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0"
+  }
+}
